@@ -4,7 +4,22 @@
     box-sizing: border-box;
 }
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: antiquewhite;
+    height: 100vh;
+}
+/* viser mobil og desktop tekst */
+.tekst-div {
+display: flex;
+justify-items: center;
+width: 100%;
+max-width: 700px;
+padding: 0.5rem;
+border-radius: 8px;
+color:rgb(196, 196, 196);
 }
 .product-wrapper {
     display: flex;
@@ -13,8 +28,6 @@ body {
     justify-content: center;
     padding:2rem;
    
-    height: 100vh;
-    
 }
 
 .card {
@@ -138,6 +151,10 @@ a:hover {
     /* Her legger du inn CSS-reglene som skal gjelde for skjermer mindre enn 768px */
     body {
       background-color: lightblue;
+    }
+    .tekst-div {
+        max-width: 375px;
+        color:rgb(62, 62, 62);
     }
     .card {
       display: flex;
