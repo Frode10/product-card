@@ -162,8 +162,8 @@ a:hover {
     .card {
       display: flex;
       flex-direction: column;
+      max-width: 375px;
       
-      width: 100%;
     }
     .image-wrapper img {
       height: 300px;
