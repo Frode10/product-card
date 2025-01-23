@@ -23,8 +23,8 @@ body {
    max-width: 700px;
     padding: 2rem;
     background-color: rgb(255, 223, 181);
-    
     border-radius: 8px;
+    border:1px solid rgb(181, 181, 181);
 }
 .image-wrapper {
     width: 100%;
@@ -59,21 +59,30 @@ p{
     letter-spacing: 1px;
 }
 
+
 a {
-    padding:1rem 2rem;
+    width: fit-content;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; /* Sentrerer både ikon og tekst vertikalt */
+    padding: 1rem 2rem;
     background-color: rgb(228, 250, 215);
     border-radius: 4px;
     cursor: pointer;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
+}
 
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; 
+    font-size: 24px; 
+    margin-right: 0.5rem; 
 }
 
 a:hover {
     background-color: rgb(215, 220, 250);
 }
-
 
 
 @media (max-width: 1280px) {
