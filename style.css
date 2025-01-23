@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: rgb(57, 57, 57);
     height: 100vh;
 }
 /* viser mobil og desktop tekst */
@@ -150,11 +150,11 @@ a:hover {
 @media (max-width: 768px) {
     /* Her legger du inn CSS-reglene som skal gjelde for skjermer mindre enn 768px */
     body {
-      background-color: lightblue;
+        background-color: rgb(66, 66, 66);
     }
     .tekst-div {
         max-width: 375px;
-        color:rgb(62, 62, 62);
+        color:rgb(196, 196, 196);;
     }
     .product-wrapper {
         padding: 0;
